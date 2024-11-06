@@ -34,6 +34,6 @@ public class FileInspector {
         } else {
             System.out.println("File selection cancelled.");
         }
+
     }
 }
-

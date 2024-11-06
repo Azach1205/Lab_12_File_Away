@@ -23,8 +23,8 @@ public class DataSaver {
             String email = scanner.nextLine();
 
             System.out.println("Enter Year of Birth:");
-            String yearOfBirth = scanner.nextLine();
-
+            String yearOfBirthString = scanner.nextLine();
+            int yearOfBirth = Integer.parseInt(yearOfBirthString);
             String record = firstName + ", " + lastName + ", " + idNumber + ", " + email + ", " + yearOfBirth;
             records.add(record);
 
